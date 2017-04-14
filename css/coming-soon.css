@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+	background-image: url(../images/coming-soon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row {
+	width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: 50%;
+}
+
+#main-header {
+	text-align: right;
+    color: white;
+    font-size: 80px;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+
+h2 {
+/*    font-family: 'Rubik Mono One', sans-serif;*/
+/*    font-family: 'Pacifico', cursive;*/
+/*    font-family: 'Righteous', cursive;*/
+/*    font-family: 'Audiowide', cursive;*/
+    font-family: 'Fugaz One', cursive;
+/*    font-family: 'Monoton', cursive;*/
+    text-shadow: 3px 3px 1px black;
+}
+
+.contact-section {
+	color: white;
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    padding-top: 50px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.btn-warning {
+    border: none;
+    box-shadow: 1px 1px 2px black;
+}
+
+footer {
+    background: rgba(0,0,0,0.3);
+    color: white;
+    text-align: center;
+    padding: 12px 0 2px;
+}
+
+span {
+    color: coral;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 955px){
+    #main-header {
+	    padding-right: 20px;
+}
+}
+
+@media only screen and (max-width: 872px){
+    .container-fluid {
+/*        background-size: 200%;*/
+        background-position: -100px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #main-header {
+	    text-align: center;
+}
+}
+
+@media only screen and (max-width: 680px){
+    #main-header {
+        font-size: 60px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
