@@ -10,6 +10,7 @@ html, body {
 	background-image: url(../images/coming-soon.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 
 .row {
@@ -81,8 +82,8 @@ span {
 
 @media only screen and (max-width: 872px){
     .container-fluid {
-/*        background-size: 200%;*/
-        background-position: -100px;
+/*        background-size: 180%;*/
+/*        background-position: -100px;*/
     }
 }
 
